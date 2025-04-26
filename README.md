@@ -2,11 +2,11 @@
 
 The P2P project has three primary parts:
 
-1) secure_utils.py: Encrypts and decrypts messages to ensure communication security.
+ 1) secure_utils.py: Encrypts and decrypts messages to ensure communication security.
 
-2)peer.py: Creates a peer-to-peer (P2P) system that allows users to send and receive encrypted communications.
+ 2)peer.py: Creates a peer-to-peer (P2P) system that allows users to send and receive encrypted communications.
 
-3) api.py: An API for managing user registrations, subscriptions, blocking, muting, and message delivery logic.
+ 3) api.py: An API for managing user registrations, subscriptions, blocking, muting, and message delivery logic.
 
 
 Secure_utils.py is responsible for securing peer interactions with the pycryptodome package.Ensure that communications sent by peers are encrypted.
